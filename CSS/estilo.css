@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Codystar|Montserrat|Poiret+One&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
+    :root{
+      --cor-header: black;
+      --cor-texto-header: white;
+      --arejamento-pagina: 2rem;
+      --cor-body: white;
+    }
+
+  header{
+    text-align: center;
+  }
+
+  body{
+    font-family: 'Montserrat', sans-serif;
+    background: var(--cor-body);
+  }
+
+  h1{
+    font-family: 'Bungee Shade', cursive;
+  }
+
+ nav{
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    background: black;
+    color: var(--cor-texto-header);
+    display: flex;
+     align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+  
+  }
+
+  nav ul{
+    display: flex;
+    list-style: none;
+  }
+
+  nav a{
+    color: inherit;
+    font-weight: 200;
+    margin-left: var(--arejamento-pagina);
+    text-decoration: none;
+  }
+
+
+ .home{
+  background-image: url(../img/teste.jpg) ;
+  background position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: black;
+  padding-top:  15%;
+  text-align: center;
+  padding-bottom: 10%;
+ 
+}
+
+
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  padding-top: 1rem;
+  background-color: #ff9933;
+  border-radius: 15px;
+  width: 50%; 
+  font-size: 25px;
+  box-shadow: 10px 10px 5px black;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.box p{
+  text-align: justify;
+}
+
+div.box:hover{
+  border-radius: 20px;
+  transition: width 2s;
+}
+
+#home_text p{
+  background-color: #ff9933;
+  border-radius: 15px; 
+  padding-right: 2%;
+  padding-left: 2%;
+  padding-bottom: 1rem;
+  font-weight: bold;
+  color: black;
+  width: 50%;
+  margin-top: 5%;
+  padding-top: 1rem;
+  margin-left: 25%;
+  text-align: justify;
+}
+
+#home_text img{
+  padding-top: 5%;
+  height: 15%;
+  width: 15%;
+  margin-left: 15%;
+}
+
+
+.container_energia{
+  background-image: url(../img/fundo.jpg) ;
+  background position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 10%;
+  text-align: center;
+
+}
+
+.box_energia{
+  padding-top: 5%;
+  text-align: center;
+  width: 50%; 
+  : 1rem;
+  margin-left: 25%;
+}
+
+
+
+.box_energia h1{
+  font-weight: bold;
+  font-family: 'Codystar', cursive;
+}
+
+.box_energia p{
+  font-weight: bold;
+}
+
+.box_2{
+  width: 90%;
+  padding-top: 5%;
+  margin-left: 5%;
+  padding-top: 5%;
+}
+
+
+#textoenergia{
+  padding-top: 2%;
+  text-align: justify;
+  width: 70%;
+  background-color: ;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px black;
+  margin-left: 15%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+#textoenergia2 h2{
+  font-size: 25px;
+  padding-top: 5%;
+  font-family: 'Codystar', cursive;
+}
+
+#textoenergia2 p{
+  padding-top: 2%;
+}
+
+#textoenergia2 p, h2{
+  text-align: justify;
+  margin-left: 15%;
+}
+
+#textoenergia2 li{
+  margin-left: 15%;
+  text-align: justify;
+  padding: 2%;
+}
+
+.box_2 {
+
+}
+
+
+
+#mulheres{
+  background-image: url(../img/fundomulheres.png) ;
+  background position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 2%;
+  padding-bottom: 10%;
+  text-align: center;
+  text-align: center;
+  color: white;
+}
+
+.container_m{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box_m {
+  background-color: purple;
+  border-radius: 15px;
+  width: 50%; 
+  box-shadow: 10px 10px 5px purple;
+  : 1rem;
+  padding-top: 2%;
+  text-align: justify;
+  padding-right: 0%;
+  padding-left: 0p%;
+ 
+}
+
+
+#mulheres h1{
+  font-family: 'Codystar', cursive;
+  padding-top: 10%;
+}
+
+#mulheres h2{
+  font-family: 'Poiret One', cursive;
+ margin-left: 38%;
+}
+
+
+
+
+#mulheres img{
+  width: 5%;
+  opacity: 0.5;
+
+}
+
+#mulheres img:hover{
+  opacity: 1;
+}
+
+#mulheres p{
+  padding-top: 5%;
+  margin-left: 25%;
+  width:50%;
+  text-align: justify;
+}
+
+#curiosidades li{
+  margin-left: 25%;
+  width: 50%;
+  padding: 1%;
+  margin-top: 2%;
+}
+
+
+.bgcontato{
+  background-image: url(../img/teste1.jpg) ;
+  background position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 2%;
+  text-align: center;
+  padding-bottom: 10%;
+  text-align: center;
+  color: black;
+}
+
+form{
+  padding-top: 5%;
+}
+
+.form_container{
+  margin-top: 8%;
+}
+
+.form-contact {
+  width: 100%;
+  font-family: "Arial", Times, serif;
+}
+
+.form-contact-input {
+  width: 50%;
+  font-size: 18px;
+  border: 1px solid #E9E9E9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
+}
+
+.form-contact-textarea {
+  font-family: 'Montserrat', sans-serif;
+  width: 50%;
+  font-size: 18px;
+  border: 1px solid #E9E9E9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 200px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
+  padding-top: 1%;
+}
+
+.form-contact-button {
+  width: 50%;
+  font-size: 18px;
+  border-radius: 4px;
+  color: black;
+  height: 40px;
+  opacity: .8;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background: #ffcc66;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #500707;
+  border-right: 1px solid #500707;
+  transition: 1s;
+  margin-left: 25%;
+}
+
+.form-contact-button:hover {
+  opacity: 1;
+}
+.invisivel{
+    display: none;
+    text-align: center;
+  }
+
+
+}
+
+h2{
+  font-family: 'Gruppo', cursive;
+
+}
+
+#linha{
+}     
+
+@media (max-width: 600px){
+  #home{
+      margin: 0.016% 0;
+      padding: 0.011%;
+      margin-left: 0.42%;
+
+  }
+
+  .box{
+    width: 70%;
+  }
+
+  .box_energia{
+  padding-top: 15%;
+}
+
+#mulheres h1{
+  padding-top: 15%;
+}
+
+#mulheres h2{
+  font-family: 'Poiret One', cursive;
+ margin-left: 12%;
+}
+
+}
+
+@media (max-width: 480px) { 
+ 
+  .box{
+    padding-top: 15%;
+    width: 100%;
+  }
+
+  .box_energia{
+  padding-top: 15%;
+}
+
+.bgcontato{ 
+  padding-top: 5%;
+ }
+
+}
+
+/* Telefones em paisagem a tablet em retrato */
+@media (max-width: 767px) {
+#home{
+      margin: 0.016% 0;
+      padding: 0.011%;
+      margin-left: 0.42%;
+
+  }
+
+  .box{
+    width: 70%;
+  }
+
+  .box_energia{
+  padding-top: 15%;
+}
+
+#mulheres h1{
+  padding-top: 15%;
+}
+
+#mulheres h2{
+ margin-left: 10%;
+}
+
+}
+
+/* Tablet em retrato a paisagem e desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+#home{
+      margin: 0.016% 0;
+      padding: 0.011%;
+      margin-left: 0.42%;
+
+  }
+
+  .box{
+    width: 70%;
+  }
+
+  .box_energia{
+  padding-top: 15%;
+}
+
+#mulheres h1{
+  padding-top: 15%;
+}
+
+#mulheres h2{
+  font-family: 'Poiret One', cursive;
+ margin-left: 12%;
+}
+}
+
+
+  #home img{
+    font-size: 0.032%;
+    padding-right: 0.079%;
+    width: 45%;
+  }
